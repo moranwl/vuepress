@@ -1,0 +1,73 @@
+{
+    "private": true,
+    "version": "1.8.3",
+    "name": "notes-vuepress",
+    "description": "notes-vuepress of VuePress",
+    "scripts": {
+        "dev": "vuepress dev --temp .temp --no-cache",
+        "build": "vuepress build --temp .temp --no-cache",
+        "lint-md": "yarn lint-md:style && yarn lint-md:wording",
+        "lint-md:style": "remark --quiet --frail .",
+        "lint-md:wording": "textlint ./docs/**/*.md",
+        "clean-build": "rimraf docs/*",
+        "test": "node .vuepress/push.js",
+        "view-info": "vuepress view-info --temp .temp --no-cache",
+        "show-help": "vuepress --help"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bajins/notes-vuepress.git"
+    },
+    "keywords": [
+        "documentation",
+        "vue",
+        "generator",
+        "vuepress",
+        "notes-vuepress"
+    ],
+    "author": "Bajins",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bajins/notes-vuepress/issues"
+    },
+    "homepage": "https://github.com/bajins/notes-vuepress#readme",
+    "dependencies": {
+        "@vuepress/plugin-active-header-links": "^1.9.7",
+        "@vuepress/plugin-back-to-top": "^1.9.7",
+        "@vuepress/plugin-blog": "^1.9.4",
+        "@vuepress/plugin-google-analytics": "^1.9.7",
+        "@vuepress/plugin-medium-zoom": "^1.9.7",
+        "@vuepress/plugin-nprogress": "^1.9.7",
+        "@vuepress/plugin-pwa": "^1.9.7",
+        "@vuepress/theme-vue": "^1.9.7",
+        "axios": "^0.26.1",
+        "leancloud-storage": "^4.12.2",
+        "lodash": "^4.17.21",
+        "lodash.template": "^4.5.0",
+        "mixin-deep": "^2.0.1",
+        "moment": "^2.29.3",
+        "node-sass": ">=7.0.1",
+        "package": "^1.0.1",
+        "querystringify": "2.2.0",
+        "serialize-javascript": "^6.0.0",
+        "set-value": "^4.1.0",
+        "vue-class-component": "^7.2.6",
+        "vue-click-outside": "^1.1.0",
+        "vue-property-decorator": "^9.1.2",
+        "vue-toasted": "^1.1.28",
+        "vuepress": "^1.9.7",
+        "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
+        "vuepress-plugin-code-copy": "^1.0.6",
+        "vuepress-plugin-flowchart": "^1.5.0",
+        "vuepress-plugin-sitemap": "^2.3.1",
+        "vuepress-plugin-toolbar": "^1.0.1"
+    },
+    "devDependencies": {
+        "vuepress-plugin-auto-sidebar": "^2.3.2",
+        "vuepress-plugin-autometa": "^0.1.13",
+        "vuepress-plugin-feed": "^0.1.9",
+        "vuepress-plugin-flexsearch-plus": "^0.2.1",
+        "vuepress-plugin-plausible-analytics": "^0.2.1",
+        "vuepress-plugin-right-anchor": "^0.5.5"
+    }
+}
