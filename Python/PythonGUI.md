@@ -427,7 +427,7 @@ class WorkThread(Thread):
 
 class MainForm(wx.Frame):
     def __init__(self, parent=None):
-        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Bajins工具", pos=wx.DefaultPosition,
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Mr工具", pos=wx.DefaultPosition,
                           style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
         # 允许指定最小和最大窗口大小以及窗口大小增量。
         self.SetSizeHints(wx.Size(400, 30), wx.DefaultSize, wx.DefaultSize)
@@ -508,7 +508,7 @@ class MainThread(Thread):
 
 class MainForm(wx.Frame):
     def __init__(self, parent=None):
-        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Bajins工具", pos=wx.DefaultPosition,
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Mr工具", pos=wx.DefaultPosition,
                           style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
         # 允许指定最小和最大窗口大小以及窗口大小增量。
         self.SetSizeHints(wx.Size(400, 30), wx.DefaultSize, wx.DefaultSize)
@@ -685,7 +685,7 @@ pip install pyinstaller
 ```bash
 pyinstaller -F app.py
 # windows打包为运行不显示命令行窗口的程序
-pyinstaller -F -w -n=BajinsWallpaper app.py
+pyinstaller -F -w -n=MrWallpaper app.py
 ```
 
 **生成安装目录**
@@ -695,7 +695,7 @@ pyinstaller -F -w -n=BajinsWallpaper app.py
 > 注意：执行命令前先将目录下`build`、`dist`目录删除，并将`spec`后缀的文件也删除
 
 ```bash
-pyinstaller -D -w -n=BajinsWallpaper app.py
+pyinstaller -D -w -n=MrWallpaper app.py
 ```
 
 **静态文件处理**

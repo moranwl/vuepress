@@ -5,7 +5,6 @@
 
 ## Flag
 
-**更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
 

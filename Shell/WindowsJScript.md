@@ -141,7 +141,7 @@ close();
 
 ```batch
 1>1/* ::
-::  by bajins https://www.bajins.com
+::  by Mr http://52ztf.cn
 
 @echo off
 

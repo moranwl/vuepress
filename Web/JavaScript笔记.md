@@ -75,7 +75,7 @@
 > exec没有匹配返回null，匹配有子表达式返回匹配结果数组下标0值为所有表达式结果，其他下标为子表达式的匹配
 
 ```js
-var str = `test https://www.bajins.com`; 
+var str = `test http://www.52ztf.cn`; 
 console.log(new RegExp("var servers = (.*)","ig").exec(str));
 console.log(str.match(new RegExp("var servers = (.*)","ig")));
 console.log(new RegExp("test(.*)","ig").exec(str));
@@ -165,12 +165,12 @@ cursor: not-allowed;
 * 阻止冒泡 [event.stopPropagation](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/stopPropagation)
 
 ```html
-<a href="https://www.bajins.com" onclick="test();return false;">{{ row.name }}</a>
+<a href="http://www.52ztf.cn" onclick="test();return false;">{{ row.name }}</a>
 ```
 
 
 ```html
-<a href="https://www.bajins.com" onclick="return test();">{{ row.name }}</a>
+<a href="http://www.52ztf.cn" onclick="return test();">{{ row.name }}</a>
 <script>
 function test(){
     return false;
@@ -180,7 +180,7 @@ function test(){
 
 
 ```html
-<a href="https://www.bajins.com" onclick="test();return false;">{{ row.name }}</a>
+<a href="http://www.52ztf.cn" onclick="test();return false;">{{ row.name }}</a>
 <script>
 function test(event){
     event = window.event || arguments.callee.caller.arguments[0] || event;
@@ -196,11 +196,11 @@ function test(event){
 * [v-on api](https://cn.vuejs.org/v2/api/#v-on)
 
 ```html
-<a href="https://www.bajins.com" v-on:click.prevent="test()">{{ row.name }}</a>
+<a href="http://www.52ztf.cn" v-on:click.prevent="test()">{{ row.name }}</a>
 ```
 
 ```html
-<a href="https://www.bajins.com" v-on:click="test($event)">{{ row.name }}</a>
+<a href="http://www.52ztf.cn v-on:click="test($event)">{{ row.name }}</a>
 <script>
     function test(event){
         event.preventDefault();

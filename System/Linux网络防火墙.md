@@ -276,7 +276,7 @@ tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4
 **示例**
 
 ```bash
-tracert www.bajins.com
+tracert www.52ztf.cn
 ```
 
 

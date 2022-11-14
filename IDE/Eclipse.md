@@ -313,10 +313,10 @@
  * @Title: ${file_name}
  * @Package ${package_name}
  * @Description: 
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  * @version V1.0
- * @Copyright: ${year} bajins.com Inc. All rights reserved.
+ * @Copyright: ${year} 52ztf.cn Inc. All rights reserved.
  */
 ```
 
@@ -325,7 +325,7 @@
 ```java
  /**
   * @Fields ${field} : 
-  * @author: bajins.com
+  * @author: 52ztf.cn
   * @date: ${date} ${time}
   */
 ```
@@ -336,7 +336,7 @@
 /**
  * @Title: ${enclosing_type}
  * ${tags}
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```
@@ -347,7 +347,7 @@
 /**
  * 
  * ${tags} ${return_type}
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```
@@ -360,7 +360,7 @@
  * <p>Description: </p>
  * ${tags}
  * ${see_to_overridden}
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```
@@ -371,7 +371,7 @@
 /**
  * ${tags}
  * ${see_to_target}
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```
@@ -383,7 +383,7 @@
  * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```
@@ -395,7 +395,7 @@
  * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
- * @author: bajins.com
+ * @author: 52ztf.cn
  * @date: ${date} ${time}
  */
 ```

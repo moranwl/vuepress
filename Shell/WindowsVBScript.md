@@ -76,7 +76,7 @@ End Sub
 
 ```vb
 '数组转换为字符串
-'Writer         Bajins
+'Writer         Mr
 'Create Date    2019-10-22
 'arrayName      数组
 'separator      separator
@@ -101,7 +101,7 @@ End Function
 
 ```vb
 ' 获取对象的属性和值
-'Writer         Bajins
+'Writer         Mr
 'Create Date    2019-10-22
 'obj            对象
 'Example        GetObjectPropertieValue(obj)
@@ -130,7 +130,7 @@ End Function
 
 ```vb
 ' 获取系统位数
-'Writer         Bajins
+'Writer         Mr
 'Create Date    2019-10-22
 'Example        GetSystemBit()
 Public Function GetSystemBit()

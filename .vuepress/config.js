@@ -92,8 +92,8 @@ module.exports = {
             sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor'
         }],
         ['@vuepress-reco/vuepress-plugin-rss', {
-            site_url: 'https://bajins.com',
-            copyright: "bajins.com",
+            site_url: 'http://www.52ztf.cn',
+            copyright: "www.52ztf.cn",
             //filter:"",
             count: "20",
         }],
@@ -102,11 +102,11 @@ module.exports = {
         // https://github.com/znicholasbrown/vuepress-plugin-code-copy
         ["vuepress-plugin-code-copy", true],
         // https://github.com/ekoeryanto/vuepress-plugin-sitemap
-        ['sitemap', { hostname: 'https://bajins.com' }],
+        ['sitemap', { hostname: 'http://www.52ztf.cn' }],
         // https://github.com/webmasterish/vuepress-plugin-autometa
-        ['autometa', { site: { name: 'bajins' }, canonical_base: 'https://bajins.com' }],
+        ['autometa', { site: { name: 'Mr' }, canonical_base: 'http://www.52ztf.cn' }],
         // https://github.com/webmasterish/vuepress-plugin-feed
-        ['feed', { canonical_base: 'https://bajins.com' }],
+        ['feed', { canonical_base: 'http://www.52ztf.cn' }],
         // https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar
         ["vuepress-plugin-auto-sidebar", {}],// 自动生成侧边栏
         // https://github.com/xuekai-china/vuepress-plugin-right-anchor

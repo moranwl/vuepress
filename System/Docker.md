@@ -256,7 +256,7 @@ vi Dockerfile
 # 使用的基础镜像
 FROM centos:7
 # 作者信息
-MAINTAINER bajins "claer@bajins.com"
+MAINTAINER Mr "admin@52ztf.cn"
 
 # 创建目录
 RUN mkdir -p /data/java/jdk1.7.0_80

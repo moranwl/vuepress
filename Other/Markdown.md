@@ -178,23 +178,23 @@ ___
 
 ## 链接
 
-| 语法                                            	| 效果                                          	|
-|-------------------------------------------------	|-----------------------------------------------	|
-| `[我的博客](https://www.bajins.com "悬停显示")` 	| [我的博客](https://www.bajins.com "悬停显示") 	|
-| `[我的博客](https://www.bajins.com) `           	| [我的博客](/README.md)                        	|
+| 语法                                            	| 效果                                          	 |
+|-----------------------------------------------	|-----------------------------------------------|
+| `[我的博客](http://www.52ztf.cn "悬停显示")` 	| [我的博客](http://www.52ztf.cn "悬停显示") 	          |
+| `[我的博客](http://www.52ztf.cn) `           	| [我的博客](/README.md)                        	   |
 
 ### URL变量
 
 - 定义变量
 
 ```
-[var]:https://www.bajins.com
-[blog]:https://www.bajins.com "我的博客"
+[var]:http://52ztf.cn
+[blog]:http://52ztf.cn "我的博客"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 ```
 
-[var]:https://www.bajins.com
-[blog]:https://www.bajins.com "我的博客"
+[var]:http://52ztf.cn
+[blog]:http://52ztf.cn "我的博客"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 
 | 使用变量语法                               | 效果                                   	|

@@ -535,11 +535,11 @@ git config --global http.lowSpeedTime 999999
 
 ```diff
 [root@foundation38 demo]# git push -u origin master
-Username for 'https://github.com': bajins
-Password for 'https://bajins@github.com': 
-To https://github.com/bajins/test.git
+Username for 'https://github.com': moranwl
+Password for 'https://moranwl@github.com': 
+To https://github.com/moranwl/test.git
  ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'https://github.com/bajins/test.git'
+error: failed to push some refs to 'https://github.com/moranwl/test.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
 hint: before pushing again.

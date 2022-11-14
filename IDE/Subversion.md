@@ -81,7 +81,7 @@ vi passwd
 
 ```conf
 # 账户=密码
-bajins.com=bajins.com
+52ztf.cn=52ztf.cn
 ```
 
 - 配置权限控制`authz`
@@ -95,7 +95,7 @@ vi authz
 
 ```conf
 [/]
-bajins.com=rw
+52ztf.cn=rw
 *=r
 ```
 

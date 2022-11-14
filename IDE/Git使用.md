@@ -241,7 +241,7 @@ git checkout 复制的hash值 文件名
 - 删除包括历史
 
 ```bash
-git filter-branch --force --index-filter "git rm --cached --ignore-unmatch src/main/java/com/bajins/demo/xxx.java" \
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch src/main/java/com/ztf/demo/xxx.java" \
   --prune-empty --tag-name-filter cat -- --all
 ```
 

@@ -21,8 +21,8 @@
 
 
 ```bash
-javac -encoding utf-8 -cp ".;webapp\WEB-INF\lib\*" -d target src\com\bajins\utils\*.java
-java -cf bajins.war .
+javac -encoding utf-8 -cp ".;webapp\WEB-INF\lib\*" -d target src\com\ztf\utils\*.java
+java -cf ztf.war .
 
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize

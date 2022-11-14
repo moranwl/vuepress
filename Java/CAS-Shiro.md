@@ -144,7 +144,7 @@ if ($arg_service){
 
 
 ```java
-package com.bajins.common;
+package com.ztf.common;
 
 import java.io.IOException;
 
@@ -164,16 +164,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.util.StringUtils;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.bajins.common.shiro.cas.CasUserRealm;
+import com.ztf.common.shiro.cas.CasUserRealm;
 
 /**
  * @Title: ImsAuthenticationFilter.java
- * @Package com.bajins.common
+ * @Package com.ztf.common
  * @Description: shiro动态改变loginUrl
- * @author: https://www.bajins.com
+ * @author: http://www.52ztf.cn
  * @date: 2021年4月15日 下午3:07:18
  * @version V1.0
- * @Copyright: 2021 bajins.com Inc. All rights reserved.
+ * @Copyright: 2021 52ztf.cn Inc. All rights reserved.
  */
 public class ImsAuthenticationFilter extends FormAuthenticationFilter {
 
@@ -332,7 +332,7 @@ public class ImsAuthenticationFilter extends FormAuthenticationFilter {
 **修改Spring-Shiro配置xml**
 
 ```xml
-<bean id="imsAuthenticationFilter" class="com.bajins.common.ImsAuthenticationFilter">
+<bean id="imsAuthenticationFilter" class="com.ztf.common.ImsAuthenticationFilter">
 	<property name="serverUrl" value="${cas.server}" />
 	<property name="clientUrl" value="${cas.client}" />
 </bean>
