@@ -11,7 +11,7 @@ features: # 可选的
 - title: 沉浸式阅读
   details: 专为阅读设计的UI，配合多种颜色模式、可关闭的侧边栏和导航栏，带给你一种沉浸式阅读体验
 
-footer:  Copyright © 2022-Mr -冀ICP备17026938号-1
+footer:  Copyright © 2023-Mry -冀ICP备17026938号
 ---
 
 ``` js
